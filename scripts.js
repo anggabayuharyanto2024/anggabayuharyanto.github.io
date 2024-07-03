@@ -1,6 +1,3 @@
-// scripts.js
-
-// Example of a simple interactive feature using JavaScript
 document.addEventListener('DOMContentLoaded', function () {
     const aboutSection = document.getElementById('about');
 

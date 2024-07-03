@@ -45,3 +45,8 @@ main section {
 #about {
     text-align: center;
 }
+
+/* Add padding to the bottom of the main content to prevent overlap with the footer */
+main {
+    padding-bottom: 80px; /* Adjust the value as needed */
+}
