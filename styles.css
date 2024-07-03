@@ -8,6 +8,19 @@ body {
     flex-direction: column;
 }
 
+/* Minimize header size */
+header {
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
 /* Center the image in the about section and make it round */
 main img {
     border-radius: 50%;
@@ -38,27 +51,13 @@ main section {
     text-align: left;
 }
 
-/* Divider between the left and right sections */
-.divider {
-    height: 100%;
-    width: 1px;
-    background-color: #ccc;
-    margin: auto;
-}
-
 /* Adjust the column widths */
 .col-md-4 {
-    padding-right: 0;
+    padding-right: 5px; /* Adjust spacing on the right */
 }
 
-.col-md-7 {
-    padding-left: 0;
-}
-
-/* Add padding to the bottom of the main content to prevent overlap */
-main {
-    padding-bottom: 20px; /* Adjust the value as needed */
-    flex-grow: 1;
+.col-md-8 {
+    padding-left: 5px; /* Adjust spacing on the left */
 }
 
 /* Style for the card */
