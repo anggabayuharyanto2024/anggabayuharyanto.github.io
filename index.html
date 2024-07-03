@@ -3,33 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Angga Bayu Haryanto - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="programming.html">Programming</a></li>
-                <li><a href="games.html">Games</a></li>
-                <li><a href="talents.html">Other Talents</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Overview</h2>
-            <p>Welcome to my portfolio website. Here, you'll find information about my programming skills, game development projects, and other talents.</p>
-            <p>Feel free to explore the different sections to learn more about my work.</p>
-            <!-- New comment to test Github Add-->
-        </section>
-    </main>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Angga Bayu Haryanto, a passionate game developer and programmer.</p>
+        <img src="https://drive.google.com/uc?id=1svAXKlKPxpRT3oPQj7BDrhWkpZUis43W" alt="Angga Bayu Haryanto">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>[Your detailed bio]</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Project description.</p>
+            <a href="link-to-project">View Project</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Python</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Game Development</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 85%;"></div>
+            </div>
+        </div>
+        <!-- Add more skills as needed -->
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Coming soon...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2024 (c) Angga Bayu Haryanto</p>
+        <p>© 2024 Angga Bayu Haryanto. All rights reserved.</p>
+        <ul>
+            <li><a href="https://github.com/anggabayuharyanto2024">GitHub</a></li>
+            <li><a href="https://twitter.com/yourusername">Twitter</a></li>
+            <!-- Add more social links as needed -->
+        </ul>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
