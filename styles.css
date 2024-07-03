@@ -1,20 +1,47 @@
+/* Custom Styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
+/* Center the image in the about section and make it round */
 main img {
     border-radius: 50%;
     display: block;
     margin: 0 auto 1rem;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
+/* Footer styling */
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Ensure container has padding and doesn't clash with Bootstrap */
+.container {
+    padding: 15px;
+}
+
+/* Style for the navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Adding padding to the main sections */
+main section {
+    padding: 20px 0;
+}
+
+/* Center align the About Me section text */
+#about {
+    text-align: center;
 }
