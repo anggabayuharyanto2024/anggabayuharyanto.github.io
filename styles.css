@@ -38,6 +38,23 @@ main section {
     text-align: center;
 }
 
+/* Divider between the left and right sections */
+.divider {
+    height: 100%;
+    width: 1px;
+    background-color: #ccc;
+    margin: auto;
+}
+
+/* Adjust the column widths */
+.col-md-3 {
+    padding-right: 0;
+}
+
+.col-md-8 {
+    padding-left: 0;
+}
+
 /* Add padding to the bottom of the main content to prevent overlap */
 main {
     padding-bottom: 20px; /* Adjust the value as needed */
