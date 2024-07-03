@@ -30,12 +30,12 @@ main img {
 
 /* Adding padding to the main sections */
 main section {
-    padding: 20px 0;
+    padding: 20px;
 }
 
 /* Center align the About Me section text */
 #about {
-    text-align: center;
+    text-align: left;
 }
 
 /* Divider between the left and right sections */
@@ -47,11 +47,11 @@ main section {
 }
 
 /* Adjust the column widths */
-.col-md-3 {
+.col-md-4 {
     padding-right: 0;
 }
 
-.col-md-8 {
+.col-md-7 {
     padding-left: 0;
 }
 
@@ -59,4 +59,10 @@ main section {
 main {
     padding-bottom: 20px; /* Adjust the value as needed */
     flex-grow: 1;
+}
+
+/* Style for the card */
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
