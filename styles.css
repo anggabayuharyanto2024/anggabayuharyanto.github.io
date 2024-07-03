@@ -18,16 +18,6 @@ main img {
     object-fit: cover;
 }
 
-/* Footer styling */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: auto;
-    width: 100%;
-}
-
 /* Ensure container has padding and doesn't clash with Bootstrap */
 .container {
     padding: 15px;
@@ -48,8 +38,8 @@ main section {
     text-align: center;
 }
 
-/* Add padding to the bottom of the main content to prevent overlap with the footer */
+/* Add padding to the bottom of the main content to prevent overlap */
 main {
-    padding-bottom: 80px; /* Adjust the value as needed */
+    padding-bottom: 20px; /* Adjust the value as needed */
     flex-grow: 1;
 }
