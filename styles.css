@@ -2,113 +2,74 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
     background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+nav {
+    background: #444;
+    color: #fff;
 }
 
 nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav ul li a {
     color: #fff;
+    padding: 0.5rem 1rem;
+    display: block;
     text-decoration: none;
 }
 
-section {
-    padding: 20px;
-    margin: 20px 0;
+nav ul li a:hover {
+    background: #555;
 }
 
-#home {
-    background: #f4f4f4;
-    text-align: center;
+main {
+    padding: 1rem;
 }
 
-#home img {
-    max-width: 200px;
+main img {
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
-    margin-top: 20px;
+    display: block;
+    margin: 0 auto 1rem;
 }
 
-#portfolio .project {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-}
-
-#contact label {
-    margin: 5px 0;
-}
-
-#contact input, #contact textarea {
-    padding: 10px;
-    margin: 5px 0;
-}
-
-#contact button {
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+main section {
+    margin-bottom: 2rem;
 }
 
 footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.skill {
-    margin: 10px 0;
-}
-
-.skill h3 {
-    margin: 0;
-}
-
-.skill-bar {
-    background: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 20px;
-}
-
-.skill-level {
-    background: #333;
-    height: 100%;
-    transition: width 1s;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
